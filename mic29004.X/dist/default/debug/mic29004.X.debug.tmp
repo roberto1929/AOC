@@ -1,12 +1,12 @@
 <ASSEMBLER_INFO>
  <VERSION>2.2.7</VERSION>
  <DEVICE>"ATmega328P"</DEVICE>
- <WORKING_DIR>/home/roberto.matos/Downloads/mic29004.X</WORKING_DIR>
+ <WORKING_DIR>/home/aluno/AOC/mic29004.X</WORKING_DIR>
  <INCLUDE_PATH>
   <DIR>/opt/microchip/mplabx/v6.15/packs/Microchip/ATmega_DFP/3.0.158/avrasm/inc</DIR>
   <DIR></DIR>
  </INCLUDE_PATH>
- <SOURCE_FILE>aula1.asm</SOURCE_FILE>
+ <SOURCE_FILE>vetores.asm</SOURCE_FILE>
  <INCLUDED_FILES>
   <FILE>/opt/microchip/mplabx/v6.15/packs/Microchip/ATmega_DFP/3.0.158/avrasm/inc/m328Pdef.inc</FILE>
  </INCLUDED_FILES>
@@ -14,13 +14,17 @@
   <FILE>dist/default/debug/mic29004.X.debug.obj</FILE>
  </OBJECT_FILES>
  <HEX_FILES>
-  <FILE>aula1.hex</FILE>
+  <FILE>vetores.hex</FILE>
  </HEX_FILES>
  <OUTPUT_FILES>
   <FILE>dist/default/debug/mic29004.X.debug.map</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <label><FILE>aula1.asm</FILE><LINE>2</LINE></label>
-  <start><FILE>aula1.asm</FILE><LINE>5</LINE></start>
+  <A1><FILE>vetores.asm</FILE><LINE>2</LINE></A1>
+  <A2><FILE>vetores.asm</FILE><LINE>3</LINE></A2>
+  <A3><FILE>vetores.asm</FILE><LINE>4</LINE></A3>
+  <A4><FILE>vetores.asm</FILE><LINE>5</LINE></A4>
+  <start><FILE>vetores.asm</FILE><LINE>9</LINE></start>
+  <init_A2_A3><FILE>vetores.asm</FILE><LINE>18</LINE></init_A2_A3>
  </LABELS>
 </ASSEMBLER_INFO>
